@@ -1,15 +1,42 @@
 .SideMenu {
-  width: 15rem;
+  width: 20rem;
+  height: 100vh;
+  position: fixed;
+  top: 4.5rem;
+  align-content: space-between;
   background-color: #fff;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 8px 0 16px rgba(0,0,0,0.1);
 
   .profile-info {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 1rem;
+
+    span {
+      margin-right: 1rem;
+    }
   }
 
   .menu {
     width: 100%;
+    height: 62%;
   }
+
+  .logout {
+    margin: 1rem;
+    background-color: #f9f9f9;
+    width: 18rem;
+
+    .ant-card-body {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      svg {
+        width: 100px;
+      }
+    }
+  }
+
 }
