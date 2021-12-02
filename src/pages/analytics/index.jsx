@@ -1,5 +1,6 @@
 import {Card} from "antd";
 import {useState} from "react";
+import {TestAnalitics} from "../../components/test";
 
 
 
@@ -86,7 +87,7 @@ const TabsCard = () => {
 const Analytics = () => {
     return (
         <div className="marriage-verification">
-            iuhiuh
+            <TestAnalitics />
         </div>
     )
 }

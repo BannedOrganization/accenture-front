@@ -1,0 +1,128 @@
+p.InfoSession:hover {
+
+  color: #109CF1;
+  margin-left: 10em;
+
+}
+
+
+.PageContainer .content .BorderBottom_2 {
+  border-bottom: 1px solid;
+  margin-bottom: 2em;
+  margin-top: 3em;
+}
+
+
+
+.PageContainer .content .container_flex {
+  max-width: 588px;
+  height: 184px;
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 4px 4px 11px -3px rgba(100,100,100,0.5);
+  display: -webkit-box;
+  padding-top: 0;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  padding-left: 0.9em;
+  justify-content: left;
+  align-content: left;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+p.InfoSession {
+
+  margin-left: 10em;
+
+}
+
+
+
+
+.GoodSession {
+  width: 102px;
+  height: 27px;
+  border-radius: 4px;
+
+  padding-left: 22px;
+  padding-top: 1px;
+
+}
+
+
+.ColorG {
+  background: #2ed47a;
+  color: white;
+
+}
+
+.ColorB {
+  background: #F7685B;
+  color: white;
+
+}
+
+
+.BadSession_2 {
+  width: 102px;
+  height: 27px;
+  border-radius: 4px;
+  background: #F7685B;
+  padding-left: 22px;
+  padding-top: 1px;
+  color: white;
+}
+
+
+
+
+.StatusInfo > p.InfoSession, p.GoodSession {
+  cursor: pointer;
+  position: absolute;
+  margin-top: 1.4em;
+
+}
+
+p.AvtoTxt {
+
+  padding-top: 2em;
+
+}
+
+p.AvtoMapTitle {
+
+  padding-top: 2em;
+
+}
+
+p.AvtoMapCity {
+  margin-top: -8px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+
+
+
+}
+
+p.AvtoNumber {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 0;
+  width: 96px;
+  height: 30px;
+  border-radius: 5px;
+  border: solid 1px #808080;
+}
+
+
+div.container_flex {
+
+  margin-top: 1.2em;
+
+}
