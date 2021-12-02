@@ -25,6 +25,8 @@ const Index = () => {
                     <Title level={5}>Администратор погрузки</Title>
                 </div>
             </div>
+
+
             <Menu
 
                 defaultSelectedKeys={['1']}
@@ -33,11 +35,22 @@ const Index = () => {
                 className="menu"
             >
                 <Menu.ItemGroup>
-                    <Menu.Item icon={<AppstoreOutlined />}>Option 1</Menu.Item>
-                    <Menu.Item icon={<SettingOutlined />}>Option 2</Menu.Item>
+                    <Menu.Item icon={<AppstoreOutlined />}>Главная</Menu.Item>
+                    <Menu.Item icon={<SettingOutlined />}>Настройки</Menu.Item>
                 </Menu.ItemGroup>
             </Menu>
+
+            <div className="BorderBottom"></div>
+
+
+
         </div>
+
+
+
+
+
+
     );
 };
 

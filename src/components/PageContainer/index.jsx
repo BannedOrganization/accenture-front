@@ -12,6 +12,23 @@ const PageContainer = ({ children }) => {
                 <SideMenu />
                 <div className="children">
                     { children }
+<div>
+<p>8 машин приехало из 10</p>
+</div>
+
+<div className="ProgressBar">линия</div>
+<div className="Calendar">
+<p>21 Декабря, Понедельник</p>
+<div>
+<p></p>
+
+
+</div>
+
+
+
+</div>
+
                 </div>
             </div>
         </div>
