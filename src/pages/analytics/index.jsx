@@ -86,7 +86,7 @@ const TabsCard = () => {
 const Analytics = () => {
     return (
         <div className="marriage-verification">
-            <TestAnalitics/>
+            A NAL ITIKA
         </div>
     )
 }
