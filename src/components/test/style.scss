@@ -13,13 +13,12 @@ p.InfoSession:hover {
 }
 
 
-
 .PageContainer .content .container_flex {
   max-width: 588px;
   height: 184px;
   border-radius: 4px;
   background: #ffffff;
-  box-shadow: 4px 4px 11px -3px rgba(100,100,100,0.5);
+  box-shadow: 4px 4px 11px -3px rgba(100, 100, 100, 0.5);
   display: -webkit-box;
   padding-top: 0;
   display: -moz-box;
@@ -40,8 +39,6 @@ p.InfoSession {
   margin-left: 10em;
 
 }
-
-
 
 
 .GoodSession {
@@ -79,8 +76,6 @@ p.InfoSession {
 }
 
 
-
-
 .StatusInfo > p.InfoSession, p.GoodSession {
   cursor: pointer;
   position: absolute;
@@ -105,7 +100,6 @@ p.AvtoMapCity {
   font-size: 24px;
   font-weight: 500;
   line-height: 36px;
-
 
 
 }

@@ -3,7 +3,6 @@ import {useState} from "react";
 import {TestAnalitics} from "../../components/test";
 
 
-
 const tabList = [
     {
         key: 'tab1',
@@ -56,7 +55,7 @@ const TabsCard = () => {
     return (
         <>
             <Card
-                style={{ width: '100%' }}
+                style={{width: '100%'}}
                 title="Card title"
                 extra={<a href="#">More</a>}
                 tabList={tabList}
@@ -67,10 +66,10 @@ const TabsCard = () => {
             >
                 {contentList[activeTabKey1]}
             </Card>
-            <br />
-            <br />
+            <br/>
+            <br/>
             <Card
-                style={{ width: '100%' }}
+                style={{width: '100%'}}
                 tabList={tabListNoTitle}
                 activeTabKey={activeTabKey2}
                 tabBarExtraContent={<a href="#">More</a>}
@@ -87,7 +86,7 @@ const TabsCard = () => {
 const Analytics = () => {
     return (
         <div className="marriage-verification">
-            <TestAnalitics />
+            <TestAnalitics/>
         </div>
     )
 }

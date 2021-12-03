@@ -4,14 +4,14 @@ import React from "react";
 import SideMenu from "../SideMenu";
 import Header from "../Header";
 
-const PageContainer = ({ children }) => {
+const PageContainer = ({children}) => {
     return (
         <div className="PageContainer">
             <Header/>
             <div className="content">
-                <SideMenu />
+                <SideMenu/>
                 <div className="children">
-                    { children }
+                    {children}
                 </div>
             </div>
         </div>

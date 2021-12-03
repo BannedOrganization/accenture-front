@@ -1,13 +1,12 @@
-import {Button, Menu, PageHeader, Tag, Dropdown} from 'antd';
+import {Button, Dropdown, Menu, PageHeader, Tag} from 'antd';
 import "./style.scss"
 import {NavLink} from "react-router-dom";
-import { EllipsisOutlined } from '@ant-design/icons';
+import {EllipsisOutlined} from '@ant-design/icons';
 
 
-
-const LogoIcon = ({ src }) => (
+const LogoIcon = ({src}) => (
     <NavLink to="/">
-        <img className="example-link-icon" src="https://www.tadviser.ru/images/5/57/Acc_Logo_Black_Purple_RGB.png" />
+        <img className="example-link-icon" src="https://www.tadviser.ru/images/5/57/Acc_Logo_Black_Purple_RGB.png"/>
     </NavLink>
 );
 
@@ -61,9 +60,9 @@ const Header = () => {
                 <Button key="1" type="primary">
                     Primary
                 </Button>,
-                <DropdownMenu key="more" />,
+                <DropdownMenu key="more"/>,
             ]}
-            avatar={{ src: "https://www.tadviser.ru/images/5/57/Acc_Logo_Black_Purple_RGB.png" }}
+            avatar={{src: "https://www.tadviser.ru/images/5/57/Acc_Logo_Black_Purple_RGB.png"}}
         />
     )
 }

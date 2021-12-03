@@ -1,18 +1,10 @@
-import React, { useState } from 'react';
-import {Drawer, Button, Menu, Card, Descriptions} from 'antd';
-import {
-    AppstoreAddOutlined,
-    AppstoreOutlined, CarOutlined,
-    FieldTimeOutlined,
-    LogoutOutlined,
-    MailOutlined, PieChartOutlined,
-    SettingOutlined,
-    UserOutlined
-} from "@ant-design/icons";
+import React, {useState} from 'react';
+import {Card, Menu} from 'antd';
+import {AppstoreAddOutlined, CarOutlined, LogoutOutlined, PieChartOutlined} from "@ant-design/icons";
 import Avatar from "antd/es/avatar/avatar";
 import Title from "antd/es/typography/Title";
 import "./style.scss"
-import {Link, NavLink, Redirect} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 
 const Logout = () => {
@@ -23,7 +15,7 @@ const Logout = () => {
             className="logout"
         >
             <Title level={5}>Выйти</Title>
-            <LogoutOutlined width="100" />
+            <LogoutOutlined width="100"/>
         </Card>
     )
 }
@@ -31,7 +23,7 @@ const Logout = () => {
 const ProfileCard = () => {
     return (
         <div className="profile-info">
-            <Avatar shape="square" size={64} src="https://19.img.avito.st/640x480/9830966519.jpg" />
+            <Avatar shape="square" size={64} src="https://19.img.avito.st/640x480/9830966519.jpg"/>
             <div>
                 <Title level={5}>Николай Сафронов</Title>
                 <p>Администратор</p>
@@ -53,7 +45,7 @@ const SideMenu = () => {
     };
     return (
         <div className="SideMenu">
-            <ProfileCard />
+            <ProfileCard/>
             <Menu
                 defaultSelectedKeys={['1']}
                 mode="inline"
@@ -62,7 +54,7 @@ const SideMenu = () => {
                 <Menu.ItemGroup>
                     <Menu.Item
                         eventKey="1"
-                        icon={<PieChartOutlined />}
+                        icon={<PieChartOutlined/>}
                     >
                         <Link to="/analytics">
                             Аналитика
@@ -70,7 +62,7 @@ const SideMenu = () => {
                     </Menu.Item>
                     <Menu.Item
                         eventKey="2"
-                        icon={<CarOutlined />}
+                        icon={<CarOutlined/>}
                     >
                         <Link to="/delivery-schedule">
                             Поставки
@@ -78,7 +70,7 @@ const SideMenu = () => {
                     </Menu.Item>
                     <Menu.Item
                         eventKey="3"
-                        icon={<AppstoreAddOutlined />}
+                        icon={<AppstoreAddOutlined/>}
                     >
                         <Link to="/tools">
                             Доп. инструменты
@@ -86,7 +78,7 @@ const SideMenu = () => {
                     </Menu.Item>
                 </Menu.ItemGroup>
             </Menu>
-            <Logout />
+            <Logout/>
         </div>
     );
 };
