@@ -6,8 +6,8 @@ import {UploadOutlined} from "@ant-design/icons";
 
 const props = {
     name: 'file',
-    multiple: true,
-    action: 'https://www.mocky.io/v2/5cc8019d300000980a055e76',
+    multiple: false,
+    action: 'https://cors-anywhere.herokuapp.com/https://2f45-178-66-208-236.ngrok.io/recognitors/car_number/',
     onChange(info) {
         const {status} = info.file;
         if (status !== 'uploading') {
